@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+}
+.container {
+  width: 100%;
+  max-width: 90rem;
+  margin: 10rem auto;
+  text-align: center;
+  background-color: rgba(0, 255, 255, 0.795);
+  border-radius: 2rem;
+  padding: 3rem;
+  position: relative;
+}
+
+#Temp {
+  width: 40%;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.63);
+  margin-bottom: 2rem;
+}
+
+.checks {
+  width: 3rem;
+}
+
+label {
+  font-size: 1.9rem;
+}
+
+#Submitt {
+  padding: 0.5rem 2rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.63);
+  background-color: dodgerblue;
+  cursor: pointer;
+  margin-top: 1.2rem;
+}
+
+#result {
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+
+.reset {
+  position: absolute;
+  left: 3rem;
+  background-color: rgba(0, 0, 0, 0.596);
+  top: 0;
+  padding: 0.5rem 3rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+
+  cursor: pointer;
+  margin-top: 1.2rem;
+}

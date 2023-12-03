@@ -4,6 +4,7 @@ const SubmittEl = document.getElementById('Submitt');
 const celciusEl = document.getElementById('Cbutton');
 const fahrenheitEl = document.getElementById('Fbutton');
 const resultEl = document.getElementById('result');
+const resetEl = document.querySelector('.reset');
 
 let temp;
 
@@ -30,4 +31,9 @@ SubmittEl.addEventListener('click', function () {
   } else {
     resultEl.innerHTML = 'Select A unit';
   }
+});
+
+resetEl.addEventListener('click', function () {
+  resultEl.innerHTML = '';
+  document.getElementById('Temp').value = '';
 });
